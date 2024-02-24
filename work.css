@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Playpen+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+
+body{
+  background-color:azure;
+}
+
+* {
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+  padding: 0%;
+  margin: 0%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+img {
+  width: 159px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.container {
+  color: white;
+  margin-top: 10px;
+}
+.dayContainer {
+  color: white;
+  margin-top: 215px;
+}
+
+#title {
+  font-size:50px ;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+button {
+  margin: 10px 10px 10px 10px;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor:grab;
+  background-color: white;
+}
